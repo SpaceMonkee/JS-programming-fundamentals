@@ -1,0 +1,57 @@
+<!DOCTYPE_html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS test</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="main.js">
+</head>
+
+<body>
+<script>"main.js"</script>
+<h1>Programming Fundamentals</h1>
+<h2 id="assist">Assisted JS code</h2>
+<input type="button" id="button" class="butt" value="Press to show time" onclick="document.getElementById('time').innerHTML = Date()">
+    <p id="time"></p>
+<h2 id="unassist">Unassisted JS code</h2>    
+<form id="myform" method="post" action="">
+    <input type="hidden" name="length" value="10">
+    <table width="100%" border ="0">
+        <tr>
+            <td width="120">Steam name:</td>
+            <td>
+                <input name="insert_username" type="text" value="" size="40"></td>
+        </tr>
+        <tr>
+            <td>New Password:</td>
+            <td>
+                <input name="password" type="text" size="40" id="code" value="">&nbsp;
+                <input type="button" id="button" value="Generate temp password" onclick="" tabindex="2">
+            </td>
+        </tr>
+    </table>
+</form>
+    <div id="combine">
+    <h2 id="head2">Below are both codes combined to provide a temporary password and date/time it was issued</h2>
+        <form id="myform2" method="post" action="">
+    <input type="hidden" name="length" value="10">
+    <table width="100%" border ="0">
+        <tr>
+            <td width="120">Steam name:</td>
+            <td>
+                <input name="insert_username" type="text" value="Username" size="40"></td>
+        </tr>
+        <tr>
+            <td>New Password:</td>
+            <td>
+                <input name="password" type="text" size="40" value="Temp code">&nbsp;
+                <input type="button" id="button" value="Generate temp password" onclick="document.getElementById('expire').innerHTML = Date()" tabindex="2">
+                <p small id="expire"></p>
+            </td>
+        </tr>
+    </table>
+</form>
+    </div>
+</body>
+</html>

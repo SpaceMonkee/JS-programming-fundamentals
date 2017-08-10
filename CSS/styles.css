@@ -1,0 +1,60 @@
+body {
+ background-color: indianred;
+}
+    
+h1{
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 30%;
+} 
+h2{
+    text-align: center;
+    float: left;
+    position: relative;
+    left: 25%;
+    top: 150px;
+    clear: both;
+}
+.butt{
+    position: relative;
+    left: 15%;
+    top: 150px;
+}
+#time{
+    position: relative;
+    left: 15%;
+    top: 150px;
+}
+#assist{
+    top: -10px;
+}
+    
+#myform{
+    float: left;
+    position: relative;
+    left: 15%;
+    top:240px;
+}  
+#head2{
+    position: relative;
+    left: 15%;
+    top: 270px;
+}
+#myform2{
+    float: left;
+    position: relative;
+    left: 30%;
+    top:340px;
+}
+    
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
